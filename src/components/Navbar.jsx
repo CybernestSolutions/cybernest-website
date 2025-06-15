@@ -60,8 +60,7 @@ export default function Navbar() {
 
         {/* CTA & Menu Toggle */}
         <div className="flex items-center gap-2">
-          <Settings size={18} strokeWidth={2} color="#DC3D50" className="hidden sm:block" />
-          <button className="hidden sm:flex px-4 py-1.5 bg-cyberred text-white text-xs font-semibold rounded-full shadow hover:opacity-90 transition">
+          <button className="hidden cursor-pointer sm:flex px-4 py-1.5 bg-cyberred text-white text-xs font-semibold rounded-full shadow hover:opacity-90 transition">
             Get Started!
           </button>
           <button
