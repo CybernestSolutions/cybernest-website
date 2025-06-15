@@ -37,8 +37,8 @@ export default function Navbar() {
           style={{ border: "1px solid #DC3D50" }}
         >
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <img src={logo} alt="Cybernest Logo" className="h-6 w-auto" />
+        <div className="flex items-center gap-2 cursor-pointer">
+         <a href="hero"> <img src={logo} alt="Cybernest Logo" className="h-6 w-auto" /></a>
         </div>
 
         {/* Desktop Nav */}
@@ -60,9 +60,10 @@ export default function Navbar() {
 
         {/* CTA & Menu Toggle */}
         <div className="flex items-center gap-2">
+        <a href="https://calendly.com/tlvelardo-pup/30min" target="_blank">         
           <button className="hidden cursor-pointer sm:flex px-4 py-1.5 bg-cyberred text-white text-xs font-semibold rounded-full shadow hover:opacity-90 transition">
             Get Started!
-          </button>
+          </button></a>
           <button
             className="md:hidden p-1"
             onClick={() => setMenuOpen(!menuOpen)}

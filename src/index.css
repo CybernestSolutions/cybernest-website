@@ -44,17 +44,17 @@ body {
 .bg-cyberviolet {
   background-color: var(--cyberviolet);
 }
-@keyframes ballBounce {
+@keyframes slowBeat {
   0%, 100% {
-    transform: translateY(0);
-    animation-timing-function: ease-in;
+    transform: scale(1);
+    animation-timing-function: ease-in-out;
   }
   50% {
-    transform: translateY(-25px);
-    animation-timing-function: ease-out;
+    transform: scale(1.1);
+    animation-timing-function: ease-in-out;
   }
 }
 
-.bounce-animation {
-  animation: ballBounce 1s infinite;
+.slow-beat-animation {
+  animation: slowBeat 2s infinite;
 }

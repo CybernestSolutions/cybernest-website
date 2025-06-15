@@ -32,26 +32,40 @@ export default function OurPurpose() {
         {/* Mission & Vision Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Mission */}
-          <div className="bg-gray-100 p-6 sm:p-8 rounded-xl shadow text-center">
+          <div data-aos="flip-left" className="bg-gray-100 p-6 sm:p-8 rounded-xl shadow text-center">
             <h3 className="text-xl sm:text-2xl font-bold text-cyberviolet mb-4">Mission</h3>
             <p className="text-sm text-gray-700 mb-6 max-w-sm mx-auto">
               To provide an end-to-end Flow Management system that optimizes the movement of people, tasks, and data—
               ensuring time and effort efficiency.
             </p>
-            <button className="bg-cyberviolet text-white text-xs px-6 py-3 rounded-full font-semibold flex items-center gap-2 mx-auto">
-              Get Started <ArrowRight size={14} />
-            </button>
+            <a
+              href="https://calendly.com/tlvelardo-pup/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <button className="bg-cyberviolet cursor-pointer text-white text-xs px-6 py-3 rounded-full font-semibold flex items-center gap-2 mx-auto">
+                Get Started <ArrowRight size={14} />
+              </button>
+            </a>
           </div>
 
           {/* Vision */}
-          <div className="bg-[#FFF5F5] p-6 sm:p-8 rounded-xl shadow text-center">
+          <div data-aos="flip-right" className="bg-[#FFF5F5] p-6 sm:p-8 rounded-xl shadow text-center">
             <h3 className="text-xl sm:text-2xl font-bold text-cyberred mb-4">Vision</h3>
             <p className="text-sm text-gray-700 mb-6 max-w-sm mx-auto">
               To enable efficient ecosystems where private and government institutions deliver seamless and digitally driven operations.
             </p>
-            <button className="bg-cyberred text-white text-xs px-6 py-3 rounded-full font-semibold flex items-center gap-2 mx-auto">
-              Get Started <ArrowRight size={14} />
-            </button>
+            <a
+              href="https://calendly.com/tlvelardo-pup/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <button className="bg-cyberred cursor-pointer text-white text-xs px-6 py-3 rounded-full font-semibold flex items-center gap-2 mx-auto">
+                Get Started <ArrowRight size={14} />
+              </button>
+            </a>
           </div>
         </div>
       </div>

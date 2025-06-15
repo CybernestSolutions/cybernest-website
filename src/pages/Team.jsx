@@ -89,7 +89,7 @@ export default function Team() {
         </p>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div data-aos="fade-up" className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {members.map((member, index) => (
             <div key={index} className="flex flex-col items-center text-sm">
               <a

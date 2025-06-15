@@ -56,43 +56,50 @@ export default function Hero() {
       </p>
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-10 px-4 sm:px-0">
-          <button className="bg-cyberred text-white px-6 py-2.5 sm:py-2 rounded-full font-semibold shadow-md hover:opacity-90 flex items-center justify-center gap-2 transition w-full sm:w-auto">
-            Get Started <ArrowRight size={18} />
-          </button>
-          <button className="border border-cyberred text-cyberred px-6 py-2.5 sm:py-2 rounded-full font-semibold hover:bg-cyberred hover:text-white transition flex items-center justify-center gap-2 w-full sm:w-auto">
-            View Projects <Puzzle size={16} />
-          </button>
+          <a
+            href="https://calendly.com/tlvelardo-pup/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-cyberred slow-beat-animation cursor-pointer text-white px-6 py-2.5 sm:py-2 rounded-full font-semibold shadow-md hover:opacity-90 flex items-center justify-center gap-2 transition w-full sm:w-auto">
+              Get Started <ArrowRight size={18} />
+            </button>
+          </a>
+
         </div>
       </div>
 
       {/* Visuals Only (Laptop + Cards) */}
       <div className="relative mx-auto max-w-7xl">
         <div className="flex justify-center items-center relative z-10 px-2 sm:px-4">
-          {/* Left Card */}
-          <img
-            src={leftCard}
-            alt="Left Card"
-            className="absolute left-0 bottom-0 w-[120px] xs:w-[150px] sm:w-[200px] md:w-[250px] lg:w-[320px] xl:w-[350px] drop-shadow-xl z-20 transform 
-                     translate-x-[10%] sm:translate-x-[0%] lg:translate-x-[10%] xl:translate-x-[15%] 
-                     -translate-y-[30px] sm:-translate-y-[60px] lg:-translate-y-[80px] xl:-translate-y-[90px]"
-          />
+{/* Left Card */}
+<img
+  src={leftCard}
+  alt="Left Card"
+  data-aos="fade-right"
+  className="absolute left-0 bottom-0 w-[120px] xs:w-[150px] sm:w-[200px] md:w-[250px] lg:w-[320px] xl:w-[350px] drop-shadow-xl z-20 transform 
+             translate-x-[10%] sm:translate-x-[0%] lg:translate-x-[10%] xl:translate-x-[15%] 
+             -translate-y-[30px] sm:-translate-y-[60px] lg:-translate-y-[80px] xl:-translate-y-[90px]"
+/>
 
-          {/* Laptop Image */}
-          <img
-            src={laptop}
-            alt="Laptop UI"
-            className="w-full max-w-[300px] xs:max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[750px] xl:max-w-[850px] z-10 relative"
-          />
+{/* Laptop Image */}
+<img
+  src={laptop}
+  alt="Laptop UI"
+  data-aos="fade-up"
+  className="w-full max-w-[300px] xs:max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[750px] xl:max-w-[850px] z-10 relative"
+/>
 
-          {/* Right Card */}
-          <img
-            src={rightCard}
-            alt="Right Card"
-            className="absolute right-0 bottom-0 w-[120px] xs:w-[150px] sm:w-[200px] md:w-[220px] lg:w-[260px] xl:w-[300px] 
-                     h-[180px] sm:h-[400px] md:h-[440px] lg:h-[520px] xl:h-[600px] object-cover drop-shadow-xl z-20 transform 
-                     translate-x-[-10%] sm:translate-x-[0%] lg:translate-x-[-15%] xl:translate-x-[-25%] 
-                     -translate-y-[35px] sm:-translate-y-[60px] lg:-translate-y-[80px] xl:-translate-y-[90px]"
-          />
+{/* Right Card */}
+<img
+  src={rightCard}
+  alt="Right Card"
+  data-aos="fade-left"
+  className="absolute right-0 bottom-0 w-[120px] xs:w-[150px] sm:w-[200px] md:w-[220px] lg:w-[260px] xl:w-[300px] 
+             h-[180px] sm:h-[400px] md:h-[440px] lg:h-[520px] xl:h-[600px] object-cover drop-shadow-xl z-20 transform 
+             translate-x-[-10%] sm:translate-x-[0%] lg:translate-x-[-15%] xl:translate-x-[-25%] 
+             -translate-y-[35px] sm:-translate-y-[60px] lg:-translate-y-[80px] xl:-translate-y-[90px]"
+/>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import logo from "../assets/images/logo.png";
-import { Facebook, Youtube, Music2 } from "lucide-react";
+import { Facebook, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,9 +11,20 @@ export default function Footer() {
           <p className="text-xs mb-1">Skip the search for the best home loan rates.</p>
           <p className="text-xs">Let the best rates find you!</p>
           <div className="flex gap-4 mt-4">
-            <Facebook className="h-5 w-5 cursor-pointer hover:text-cyberred transition" />
-            <Music2 className="h-5 w-5 cursor-pointer hover:text-cyberred transition" />
-            <Youtube className="h-5 w-5 cursor-pointer hover:text-cyberred transition" />
+            <a
+              href="https://web.facebook.com/CybernestSolutions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Facebook className="h-5 w-5 cursor-pointer hover:text-cyberred transition" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/cybernestsolutions/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Linkedin className="h-5 w-5 cursor-pointer hover:text-cyberred transition" />
+            </a>
           </div>
         </div>
 
@@ -23,10 +34,18 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-cyberred mb-2">Company</h4>
             <ul className="space-y-1 text-xs">
-              <li>About</li>
-              <li>FAQs</li>
-              <li>Privacy</li>
-              <li>Terms of Use</li>
+              <li>
+                <a href="#about" className="hover:text-cyberred transition">About</a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-cyberred transition">FAQs</a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-cyberred transition">Privacy</a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-cyberred transition">Terms of Use</a>
+              </li>
             </ul>
           </div>
 
@@ -34,20 +53,20 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-cyberred mb-2">Features</h4>
             <ul className="space-y-1 text-xs">
-              <li>Flow</li>
-              <li>Flow+</li>
-              <li>Flowx</li>
+              <li>
+                <a href="#products" className="hover:text-cyberred transition">Flow</a>
+              </li>
+              <li>
+                <a href="#products" className="hover:text-cyberred transition">Flow+</a>
+              </li>
             </ul>
           </div>
 
           {/* Contacts */}
           <div className="text-xs">
-            <h4 className="font-bold text-cyberred mb-2">Contacts</h4>
-            <p>
-              <span className="font-bold text-cyberred">Flow Partnerships:</span> 0917-880-1052
-            </p>
-            <p>
-              <span className="font-bold text-cyberred">Human Resource:</span> 0917-880-1052
+            <h4 className="font-bold text-cyberred mb-2 text-sm">Contacts</h4>
+            <p className="mb-2">
+              <span className="font-bold text-cyberred">Company Email:</span> cybernestsolutionph.com
             </p>
             <p>
               <span className="font-bold text-cyberred">Company Address:</span> Polytechnic University of the Philippines, Anonas Street, Sta. Mesa, Manila, Philippines 1016.
