@@ -85,7 +85,7 @@ export default function Team() {
           Behind <span className="text-cyberviolet">Cybernest</span>
         </h2>
         <p className="text-sm text-gray-600 max-w-sm mx-auto mb-10">
-          Lorem ipsum dolor sit amet consectetur. Vitae egestas quam enim sed sed auctor turpis.
+          A powerhouse of engineers, designers, and innovators dedicated to transforming service delivery through efficient, people-centered technology.
         </p>
 
         {/* Grid */}
