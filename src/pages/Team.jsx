@@ -1,12 +1,12 @@
 import { Linkedin } from "lucide-react";
 
 // Images
-import tristan from "../assets/images/cybermest-team/tristan.jpg";
-import froilan from "../assets/images/cybermest-team/froi.jpg";
+import tristan from "../assets/images/cybermest-team/tristanFormal.png";
+import froilan from "../assets/images/cybermest-team/froiFormal.jpg";
 import raymart from "../assets/images/cybermest-team/raymart.jpg";
-import kurt from "../assets/images/cybermest-team/kurt.jpg";
+import kurt from "../assets/images/cybermest-team/kurtFormal.jpg";
 import kenneth from "../assets/images/cybermest-team/kenneth.png";
-import john from "../assets/images/cybermest-team/dee.jpg";
+import john from "../assets/images/cybermest-team/jdeeFormal.jpg";
 import airah from "../assets/images/cybermest-team/aira.jpg";
 import valdez from "../assets/images/cybermest-team/valdez.jpg";
 import gridBox from "../assets/images/grid-box.png";
