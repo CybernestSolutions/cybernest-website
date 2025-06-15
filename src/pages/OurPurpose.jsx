@@ -38,16 +38,6 @@ export default function OurPurpose() {
               To provide an end-to-end Flow Management system that optimizes the movement of people, tasks, and data—
               ensuring time and effort efficiency.
             </p>
-            <a
-              href="https://calendly.com/tlvelardo-pup/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block"
-            >
-              <button className="bg-cyberviolet cursor-pointer text-white text-xs px-6 py-3 rounded-full font-semibold flex items-center gap-2 mx-auto">
-                Get Started <ArrowRight size={14} />
-              </button>
-            </a>
           </div>
 
           {/* Vision */}
@@ -56,16 +46,6 @@ export default function OurPurpose() {
             <p className="text-sm text-gray-700 mb-6 max-w-sm mx-auto">
               To enable efficient ecosystems where private and government institutions deliver seamless and digitally driven operations.
             </p>
-            <a
-              href="https://calendly.com/tlvelardo-pup/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block"
-            >
-              <button className="bg-cyberred cursor-pointer text-white text-xs px-6 py-3 rounded-full font-semibold flex items-center gap-2 mx-auto">
-                Get Started <ArrowRight size={14} />
-              </button>
-            </a>
           </div>
         </div>
       </div>

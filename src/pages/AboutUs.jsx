@@ -54,15 +54,6 @@ export default function AboutUs() {
           </p>
 
           {/* Button */}
-          <a data-aos="fade-left"
-            href="https://calendly.com/tlvelardo-pup/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="bg-cyberred text-white font-semibold text-sm px-6 py-2 rounded-full flex items-center gap-2 justify-center">
-              Learn More <span className="text-lg">→</span>
-            </button>
-          </a>
         </div>
       </div>
     </section>

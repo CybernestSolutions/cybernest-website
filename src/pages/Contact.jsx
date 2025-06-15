@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import contactImage from "../assets/images/joinus.jpg";
+import contactImage from "../assets/images/Contact.jpg";
 
 export default function Contact() {
   return (
@@ -32,7 +32,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <button className="bg-cyberred cursor-pointer text-white px-6 py-2 rounded-full font-semibold shadow-md hover:opacity-90 flex items-center gap-2 transition">
-              Get Started <ArrowRight size={18} />
+              Book an free appointment now <ArrowRight size={18} />
             </button>
           </a>
         </div>

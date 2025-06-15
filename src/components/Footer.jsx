@@ -40,12 +40,7 @@ export default function Footer() {
               <li>
                 <a href="#" className="hover:text-cyberred transition">FAQs</a>
               </li>
-              <li>
-                <a href="#" className="hover:text-cyberred transition">Privacy</a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-cyberred transition">Terms of Use</a>
-              </li>
+
             </ul>
           </div>
 
@@ -69,7 +64,7 @@ export default function Footer() {
               <span className="font-bold text-cyberred">Company Email:</span> cybernestsolutionph.com
             </p>
             <p>
-              <span className="font-bold text-cyberred">Company Address:</span> Polytechnic University of the Philippines, Anonas Street, Sta. Mesa, Manila, Philippines 1016.
+              <span className="font-bold text-cyberred">Company Address:</span> NALLRC TBIDO PUP, Anonas Street, Sta. Mesa, Manila, Philippines 1016.
             </p>
           </div>
         </div>
